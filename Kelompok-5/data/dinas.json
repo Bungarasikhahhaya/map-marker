@@ -1,5 +1,7 @@
 [
   { "nama": "Dinas Kesehatan Aceh", "lat": 5.54322, "lng": 95.30980  },
   { "nama": "Dinas Pendidikan Aceh", "lat": 5.55707, "lng": 95.32460 },
-  { "nama": "Dinas Pariwisata Aceh", "lat": 5.55582, "lng": 95.28707 }
+  { "nama": "Dinas Pariwisata Aceh", "lat": 5.55582, "lng": 95.28707 },
+  { "nama": "Dinas Perhubungan Aceh", "lat": 5.57376, "lng": 95.34560 },
+  { "nama": "Dinas Sosial Aceh", "lat": 5.53649, "lng": 95.31158 }
 ]
