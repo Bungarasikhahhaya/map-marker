@@ -3,5 +3,10 @@
   { "nama": "SMA Negeri 2 Banda Aceh", "lat": 5.56391, "lng": 95.32432 },
   { "nama": "SMA Negeri 3 Banda Aceh", "lat": 5.56116, "lng": 95.33169 },
   { "nama": "SMA Negeri 4 Banda Aceh", "lat": 5.56630, "lng": 95.34310 },
-  { "nama": "SMA Negeri 5 Banda Aceh", "lat": 5.57572, "lng": 95.36702 }
+  { "nama": "SMA Negeri 5 Banda Aceh", "lat": 5.57572, "lng": 95.36702 },
+  { "nama": "SMP Negeri 1 Banda Aceh", "lat": 5.55222, "lng": 95.31269 },
+  { "nama": "SMP Negeri 2 Banda Aceh", "lat": 5.56891, "lng": 95.33520 },
+  { "nama": "SMP Negeri 3 Banda Aceh", "lat": 5.54494, "lng": 95.31829 },
+  { "nama": "SMP Negeri 4 Banda Aceh", "lat": 5.56149, "lng": 95.32014 },
+  { "nama": "SMP Negeri 5 Banda Aceh", "lat": 5.55640, "lng": 95.29276 }
 ]
