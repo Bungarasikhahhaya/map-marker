@@ -5,6 +5,13 @@ var blueIcon = new L.Icon({
 	iconAnchor: [12, 41]
 });
 
+var schoolDiv = L.divIcon({
+  className: 'school-div-icon',
+  html: '<div style="font-size:22px">🏫</div>',
+  iconSize: [24, 24],
+  iconAnchor: [12, 24]
+});
+
 fetch('data/sekolah.json')
 	.then(function (res) {
 		if (!res.ok) {
@@ -22,7 +29,7 @@ fetch('data/sekolah.json')
 	})
 	.then(function (data) {
 		data.forEach(function (s) {
-			var marker = L.marker([s.lat, s.lng], { icon: blueIcon })
+			var marker = L.marker([s.lat, s.lng], { icon: schoolDiv })
 				.addTo(map);
 
 			var googleMapsUrl = 'https://www.google.com/maps?q=' + s.lat + ',' + s.lng;
