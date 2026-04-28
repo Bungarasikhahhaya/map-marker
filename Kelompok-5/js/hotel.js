@@ -1,8 +1,7 @@
-var blueIcon = new L.Icon({
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
-  shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41]
+var hotelIcon = new L.Icon({
+  iconUrl: 'https://cdn-icons-png.flaticon.com/512/139/139899.png',
+  iconSize: [32, 32],
+  iconAnchor: [16, 32]
 });
 
 fetch('data/hotel.json')
@@ -10,7 +9,7 @@ fetch('data/hotel.json')
   .then(data => {
     data.forEach(d => {
 
-      var marker = L.marker([d.lat, d.lng], { icon: blueIcon })
+      var marker = L.marker([d.lat, d.lng], { icon: hotelIcon })
         .addTo(map);
 
       var googleMapsUrl = `https://www.google.com/maps?q=${d.lat},${d.lng}`;
