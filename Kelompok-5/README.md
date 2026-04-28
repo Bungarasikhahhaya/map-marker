@@ -1,8 +1,8 @@
 map-marker kelompok 5
 
-### Anisa Ramadhani
-### Bunga Rasikhah Haya
-### Khairun Nisa
+### Anisa Ramadhani {Fitur Hotel Banda Aceh}
+### Bunga Rasikhah Haya {Fitur Dinas Banda Aceh}
+### Khairun Nisa {Fitur Sekolah Banda Aceh}
 
 # 🗺️ Map Banda Aceh - Marker Lokasi
 
