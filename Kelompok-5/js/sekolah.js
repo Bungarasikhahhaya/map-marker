@@ -7,9 +7,9 @@ var blueIcon = new L.Icon({
 
 var schoolDiv = L.divIcon({
   className: 'school-div-icon',
-  html: '<div style="font-size:22px">🏫</div>',
-  iconSize: [24, 24],
-  iconAnchor: [12, 24]
+	html: '<div style="font-size:30px">🏫</div>',
+	iconSize: [32, 32],
+	iconAnchor: [16, 32]
 });
 
 fetch('data/sekolah.json')
